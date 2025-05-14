@@ -30,7 +30,7 @@ Arguments
 
 ## Installation
 
-No installation is required. Simply download the Python script (`Fold_filter-v1.1.py`, assuming you name it that) and ensure you have Python 3 and the Biopython and pandas libraries installed.
+No installation is required. Simply download the Python script (`Fold_filter-v1.1.py`) and ensure you have Python 3 and the Biopython and pandas libraries installed.
 
 ```bash
 pip install biopython pandas
