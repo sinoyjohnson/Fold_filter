@@ -17,7 +17,7 @@ Additionally, if a FASTA assembly file is provided, the tool can extract the cor
 
 ## Usage
 
-python Fold_filter-v1.1.py <input_file> <output_prefix> --log2fc <float> --pvalue <float> --tool <edgeR|deseq2> [--fasta_assembly <fasta_file>] [--threads <int>] [--log2fc_col <string>] [--pvalue_col <string>] [--use_adjusted_pvalue]
+python Fold_filter-v1.1.py <input_file> <output_prefix> --log2fc <float> --pvalue <float> --tool <edgeR|deseq2> [--fasta_assembly <fasta_file>] [--threads <int>] [--log2fc_col <string>] [--pvalue_col <string>] [--use_adjusted_pvalue] [--remove_duplicates]
 
 Arguments
 <input_file>: Path to the input CSV/TSV file containing DEG results.
